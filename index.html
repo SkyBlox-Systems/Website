@@ -114,7 +114,7 @@
                         <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg"><i class="fas fa-rocket"></i></div>
                         <div class="px-3">
                             <h4>Powerful Servers</h4>
-                            <p>Our services are hosted on powerful servers (Intel Core i5-13500 & Xeon E3-1270 v6), making sure that there is no issues with any of our services.</p><a href="#"></a>
+                            <p>Our services are hosted on powerful servers (Intel Core i5-13500 & AMD EPYC 7351P), making sure that there is no issues with any of our services.</p><a href="#"></a>
                         </div>
                     </div>
                 </div>
@@ -407,6 +407,20 @@
         id: "4525724b-4489-403e-a9ed-8c10421b8003",
       };
 </script>
+
+<button class="open-zammad-chat">Chat with us</button>
+
+<script src="https://support.skybloxsystems.com/assets/chat/chat-no-jquery.min.js"></script>
+<script>
+(function() {
+  new ZammadChat({
+    fontSize: '12px',
+    chatId: 1,
+    show: false
+  });
+})();
+</script>
+
 <script type="module" src="https://cdn.freshstatus.io/widget/index.js"></script>
             </div>
         </footer>
